@@ -1,0 +1,27 @@
+{
+ "name": "dorsetdigital/silverstripe-element-markup",
+ "description": "Allows the addition of arbitrary markup in an Elemental block",
+ "type": "silverstripe-vendormodule",
+ "homepage": "https://github.com/DorsetDigital/silverstripe-element-quotation",
+ "keywords": ["silverstripe", "elemental", "module", "markup", "embed"],
+ "authors": [
+  {
+   "name": "Tim Burt",
+   "email": "tim@dorset-digital.net"
+  }
+ ],
+ "require": {
+  "silverstripe/vendor-plugin": "^1.0",
+  "silverstripe/cms": "^4.0",
+  "dnadesign/silverstripe-elemental": "^3.0 || ^4.0"
+ },
+ "license": "BSD-3-Clause",
+ "autoload": {
+  "psr-4": {
+   "DorsetDigital\\Elements\\": "src/"
+  }
+ },
+ "extra": {
+ },
+ "minimum-stability": "dev"
+}
