@@ -12,6 +12,7 @@ class MarkupElement extends BaseElement
     private static $plural_name = 'Markup';
     private static $description = 'Adds arbitrary markup to a page';
     private static $table_name = 'DD_Elements_Markup';
+    private static $icon = 'font-icon-p-code';
     private static $db = [
         'Markup' => 'HTMLText'
     ];
